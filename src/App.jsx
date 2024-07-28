@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import header from "/images/bg-header-desktop.svg";
 import Badge from "./Components/Badge/Badge";
+import Vacancy from "./Components/vacancy/Vacancy";
 
 function App() {
   const handleBadgeClick = (badge) => {
@@ -27,6 +28,7 @@ function App() {
           </button>
         </div>
       </div>
+      <Vacancy/>
     </>
   );
 }
