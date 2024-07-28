@@ -5,12 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    colors: { 
-      'Light_Cyan':  'hsl(180, 52%, 96%)',
-      'Grayish_Cyan': 'hsl(180, 31%, 95%)',
-      'Cyan': 'hsl(180, 29%, 50%)',
-      'Dark':   'hsl(180, 8%, 52%)',
-      'Very_Dark': 'hsl(180, 14%, 20%)',
+    extend: {
+      colors: {
+        lightCyan: 'hsl(180, 52%, 96%)',
+        grayishCyan: 'hsl(180, 31%, 95%)',
+        cyan: 'hsl(180, 29%, 50%)',
+        dark: 'hsl(180, 8%, 52%)',
+        veryDark: 'hsl(180, 14%, 20%)',
+      },
     },
   },
   plugins: [],
