@@ -1,6 +1,6 @@
 
 import React from 'react';
-import jobData from '../jobData';
+import jobData from './jobData';
 
 const Vacancy = () => {
   return (
